@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>清梦</title>
-  <subtitle>欲将轻骑逐，大雪满弓刀。</subtitle>
+  <title>欲将轻骑逐，大雪满弓刀</title>
+  <subtitle>清梦</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dpanyu.com/"/>
@@ -51,86 +51,6 @@
     
     
       <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://dpanyu.com//blog/2017/03/16/hello-world.html"/>
-    <id>http://dpanyu.com//blog/2017/03/16/hello-world.html</id>
-    <published>2017-03-16T14:07:14.433Z</published>
-    <updated>2017-03-16T14:07:14.433Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-      <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
-    
-    
-      <category term="blog" scheme="http://dpanyu.com/tags/blog/"/>
-    
-      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown语法</title>
-    <link href="http://dpanyu.com//blog/2017/03/16/markdown.html"/>
-    <id>http://dpanyu.com//blog/2017/03/16/markdown.html</id>
-    <published>2017-03-16T14:07:14.433Z</published>
-    <updated>2017-03-16T14:07:14.433Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>由一个或多个连续的文本行组成，它的前后要有一个以上的空行；<br>允许段落内的强迫换行（插入换行符）<br>需要插入<code>&lt;br/&gt;</code>处先按入两个以上的空格然后回车</p>
-<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="section"># 一级标题</span></div><div class="line"><span class="section">## 二级标题</span></div><div class="line"><span class="section">### 三级标题</span></div><div class="line"><span class="section">#### 四级标题</span></div><div class="line"><span class="section">##### 五级标题</span></div><div class="line"><span class="section">###### 六级标题</span></div></pre></td></tr></table></figure>
-<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>无序<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> 文本<span class="number">1</span></span></div><div class="line">-<span class="ruby"> 文本<span class="number">2</span></span></div><div class="line">-<span class="ruby"> 文本<span class="number">3</span></span></div></pre></td></tr></table></figure></p>
-<p>有序<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span> 文本<span class="number">1</span></div><div class="line"><span class="number">2.</span> 文本<span class="number">2</span></div><div class="line"><span class="number">3.</span> 文本<span class="number">3</span></div></pre></td></tr></table></figure></p>
-<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight coq"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Tables</span>        | <span class="type">Are</span>           | <span class="type">Cool</span>  </div><div class="line">----------- |<span class="type">------------| -----</span></div><div class="line">col <span class="number">3</span> is      | <span class="type">right</span>-aligned | <span class="type">$1600</span> </div><div class="line">col <span class="number">2</span> is      | <span class="type">centered</span>       |   <span class="type">$12</span> </div><div class="line">zebra stripes | <span class="type">are</span> neat    |    <span class="type">$1</span></div></pre></td></tr></table></figure>
-<h1 id="粗体和斜体"><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h1><p>粗体：两个<code>*</code>或者<code>_</code> 包含一段文本<br>斜体：一个<code>*</code>或者<code>_</code>包含一段文本</p>
-<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>在希望引用的文字前面加上 <code>&gt;</code>。<br><code>&gt;</code> 和文本之间要保留一个字符的空格，上下保留空行，否则会导致无法退出引用。<br>引用可以嵌套，嵌套层次依<code>&gt;</code>数量定。<br>列表内引用需要缩进。</p>
-<h1 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h1><p>以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="string">http:</span><span class="comment">//example.com/&gt;</span></div></pre></td></tr></table></figure></p>
-<p>Markdown 会转为：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="selector-tag">a</span> href=<span class="string">"http://example.com/"</span>&gt;http:<span class="comment">//example.com/&lt;/a&gt;</span></div></pre></td></tr></table></figure></p>
-<h1 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h1><p>行内式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[<span class="string">显示文本</span>](<span class="link">链接地址</span>)</div><div class="line">[<span class="string">显示文本</span>](<span class="link">链接地址 "optional title"</span>)</div><div class="line">!\[<span class="string">alt text</span>](<span class="link">图片链接地址</span>)</div><div class="line">!\[<span class="string">alt text</span>](<span class="link">图片链接地址 "optional title"</span>)</div></pre></td></tr></table></figure></p>
-<p>不能指定宽高，如需，使用img标签。<br>参考式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">![<span class="string">alt text</span>][<span class="symbol">链接标签</span>]</div><div class="line">[<span class="symbol">链接标签</span>]: <span class="link">http://dpanyu.com "optional title"</span></div></pre></td></tr></table></figure></p>
-<p>参考式简版：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[<span class="string">Google</span>][<span class="symbol"></span>]</div><div class="line">[<span class="symbol">Google</span>]: <span class="link">http://google.com/</span></div></pre></td></tr></table></figure></p>
-<p>这种方式链接网址如果很长，title可以换行。<br>链接标签不区分大小写。<br>总结：</p>
-<ul>
-<li>方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字</li>
-<li>接着一个冒号</li>
-<li>接着一个以上的空格或制表符</li>
-<li>接着链接的网址</li>
-<li>选择性地接着 title 内容，可以用单引号、双引号或是括弧包着</li>
-</ul>
-<h1 id="代码引用"><a href="#代码引用" class="headerlink" title="代码引用"></a>代码引用</h1><p>如果引用的语句只有一段，不分行，可以用\ 将语句包起来。<br>如果引用的语句为多行，可以将```置于这段代码的首行和末行。<br>如果要在代码段内插入反引号本身，就使用多个反引号开始和结束。</p>
-<h1 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h1><p>缩进 4 个空格或是 1 个制表符；<br>一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）。<br>与代码引用的区别在于没有行号及代码高亮。</p>
-<h1 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h1><p>用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;段落&quot;&gt;&lt;a href=&quot;#段落&quot; class=&quot;headerlink&quot; title=&quot;段落&quot;&gt;&lt;/a&gt;段落&lt;/h1&gt;&lt;p&gt;由一个或多个连续的文本行组成，它的前后要有一个以上的空行；&lt;br&gt;允许段落内的强迫换行（插入换行符）&lt;br&gt;需要插入&lt;code&gt;&amp;lt;br
-    
-    </summary>
-    
-      <category term="markdown" scheme="http://dpanyu.com/categories/markdown/"/>
-    
-    
-      <category term="markdown" scheme="http://dpanyu.com/tags/markdown/"/>
-    
-      <category term="语法" scheme="http://dpanyu.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
@@ -230,6 +150,86 @@
       <category term="elasticsearch" scheme="http://dpanyu.com/tags/elasticsearch/"/>
     
       <category term="segment" scheme="http://dpanyu.com/tags/segment/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://dpanyu.com//blog/2017/03/16/hello-world.html"/>
+    <id>http://dpanyu.com//blog/2017/03/16/hello-world.html</id>
+    <published>2017-03-16T14:07:14.433Z</published>
+    <updated>2017-03-16T14:07:14.433Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
+    
+      <category term="blog" scheme="http://dpanyu.com/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown语法</title>
+    <link href="http://dpanyu.com//blog/2017/03/16/markdown.html"/>
+    <id>http://dpanyu.com//blog/2017/03/16/markdown.html</id>
+    <published>2017-03-16T14:07:14.433Z</published>
+    <updated>2017-03-16T14:07:14.433Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>由一个或多个连续的文本行组成，它的前后要有一个以上的空行；<br>允许段落内的强迫换行（插入换行符）<br>需要插入<code>&lt;br/&gt;</code>处先按入两个以上的空格然后回车</p>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="section"># 一级标题</span></div><div class="line"><span class="section">## 二级标题</span></div><div class="line"><span class="section">### 三级标题</span></div><div class="line"><span class="section">#### 四级标题</span></div><div class="line"><span class="section">##### 五级标题</span></div><div class="line"><span class="section">###### 六级标题</span></div></pre></td></tr></table></figure>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>无序<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> 文本<span class="number">1</span></span></div><div class="line">-<span class="ruby"> 文本<span class="number">2</span></span></div><div class="line">-<span class="ruby"> 文本<span class="number">3</span></span></div></pre></td></tr></table></figure></p>
+<p>有序<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span> 文本<span class="number">1</span></div><div class="line"><span class="number">2.</span> 文本<span class="number">2</span></div><div class="line"><span class="number">3.</span> 文本<span class="number">3</span></div></pre></td></tr></table></figure></p>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight coq"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Tables</span>        | <span class="type">Are</span>           | <span class="type">Cool</span>  </div><div class="line">----------- |<span class="type">------------| -----</span></div><div class="line">col <span class="number">3</span> is      | <span class="type">right</span>-aligned | <span class="type">$1600</span> </div><div class="line">col <span class="number">2</span> is      | <span class="type">centered</span>       |   <span class="type">$12</span> </div><div class="line">zebra stripes | <span class="type">are</span> neat    |    <span class="type">$1</span></div></pre></td></tr></table></figure>
+<h1 id="粗体和斜体"><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h1><p>粗体：两个<code>*</code>或者<code>_</code> 包含一段文本<br>斜体：一个<code>*</code>或者<code>_</code>包含一段文本</p>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>在希望引用的文字前面加上 <code>&gt;</code>。<br><code>&gt;</code> 和文本之间要保留一个字符的空格，上下保留空行，否则会导致无法退出引用。<br>引用可以嵌套，嵌套层次依<code>&gt;</code>数量定。<br>列表内引用需要缩进。</p>
+<h1 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h1><p>以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="string">http:</span><span class="comment">//example.com/&gt;</span></div></pre></td></tr></table></figure></p>
+<p>Markdown 会转为：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="selector-tag">a</span> href=<span class="string">"http://example.com/"</span>&gt;http:<span class="comment">//example.com/&lt;/a&gt;</span></div></pre></td></tr></table></figure></p>
+<h1 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h1><p>行内式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[<span class="string">显示文本</span>](<span class="link">链接地址</span>)</div><div class="line">[<span class="string">显示文本</span>](<span class="link">链接地址 "optional title"</span>)</div><div class="line">!\[<span class="string">alt text</span>](<span class="link">图片链接地址</span>)</div><div class="line">!\[<span class="string">alt text</span>](<span class="link">图片链接地址 "optional title"</span>)</div></pre></td></tr></table></figure></p>
+<p>不能指定宽高，如需，使用img标签。<br>参考式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">![<span class="string">alt text</span>][<span class="symbol">链接标签</span>]</div><div class="line">[<span class="symbol">链接标签</span>]: <span class="link">http://dpanyu.com "optional title"</span></div></pre></td></tr></table></figure></p>
+<p>参考式简版：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[<span class="string">Google</span>][<span class="symbol"></span>]</div><div class="line">[<span class="symbol">Google</span>]: <span class="link">http://google.com/</span></div></pre></td></tr></table></figure></p>
+<p>这种方式链接网址如果很长，title可以换行。<br>链接标签不区分大小写。<br>总结：</p>
+<ul>
+<li>方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字</li>
+<li>接着一个冒号</li>
+<li>接着一个以上的空格或制表符</li>
+<li>接着链接的网址</li>
+<li>选择性地接着 title 内容，可以用单引号、双引号或是括弧包着</li>
+</ul>
+<h1 id="代码引用"><a href="#代码引用" class="headerlink" title="代码引用"></a>代码引用</h1><p>如果引用的语句只有一段，不分行，可以用\ 将语句包起来。<br>如果引用的语句为多行，可以将```置于这段代码的首行和末行。<br>如果要在代码段内插入反引号本身，就使用多个反引号开始和结束。</p>
+<h1 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h1><p>缩进 4 个空格或是 1 个制表符；<br>一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）。<br>与代码引用的区别在于没有行号及代码高亮。</p>
+<h1 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h1><p>用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;段落&quot;&gt;&lt;a href=&quot;#段落&quot; class=&quot;headerlink&quot; title=&quot;段落&quot;&gt;&lt;/a&gt;段落&lt;/h1&gt;&lt;p&gt;由一个或多个连续的文本行组成，它的前后要有一个以上的空行；&lt;br&gt;允许段落内的强迫换行（插入换行符）&lt;br&gt;需要插入&lt;code&gt;&amp;lt;br
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://dpanyu.com/categories/markdown/"/>
+    
+    
+      <category term="markdown" scheme="http://dpanyu.com/tags/markdown/"/>
+    
+      <category term="语法" scheme="http://dpanyu.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
