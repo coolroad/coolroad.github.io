@@ -239,9 +239,9 @@
       <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
-    
       <category term="blog" scheme="http://dpanyu.com/tags/blog/"/>
+    
+      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
     
   </entry>
   
