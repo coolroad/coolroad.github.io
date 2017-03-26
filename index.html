@@ -357,7 +357,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-26T09:58:48+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-26T18:15:34+08:00">
                 2017-03-26
               </time>
             
@@ -426,176 +426,10 @@
 
       
         
-          
-            <h1 id="从命令行打开图形文件管理器"><a href="#从命令行打开图形文件管理器" class="headerlink" title="从命令行打开图形文件管理器"></a>从命令行打开图形文件管理器</h1><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">nautilus</span> 目录或者文件(是文件,则文件被选中)</div></pre></td></tr></table></figure>
-<h1 id="快速定位文件目录"><a href="#快速定位文件目录" class="headerlink" title="快速定位文件目录"></a>快速定位文件目录</h1><figure class="highlight gauss"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">locate</span> 文件名(可以带路径)</div></pre></td></tr></table></figure>
-<p>是find -name的另一种写法,不过快得多,因为他使用的是每天更新数据库.<br>支持模糊搜索,类似sql的like %文件名%<br>-i 忽略大小写<br>updatedb 更新locate数据库</p>
-<h1 id="find"><a href="#find" class="headerlink" title="find"></a>find</h1><figure class="highlight arduino"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">find</span> path -regex <span class="string">"带路径的文件正则"</span></div></pre></td></tr></table></figure>
-<p>find命令可选项非常多.<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby">iregex 忽略大小写</span></div><div class="line">-<span class="ruby">size [+<span class="params">|-]数字(c字节|</span>k<span class="params">|M|</span>G)</span></div><div class="line">-<span class="ruby">mtime [+<span class="params">|-]数字 更新时间,单位天</span></span></div><div class="line">-<span class="ruby"><span class="params">mmin [+|</span>-]数字 更新时间,单位分</span></div><div class="line">-<span class="ruby">name 模糊匹配文件名称</span></div><div class="line">-<span class="ruby">type (d<span class="params">|f) d目录f文件</span></span></div><div class="line">-<span class="ruby"><span class="params">exec 对查找结果执行后续命令</span></span></div><div class="line">-<span class="ruby"><span class="params">ok 对查找结果执行后续命令,后续命令需要确认</span></span></div><div class="line">-<span class="ruby"><span class="params">print 对查找结果输出一遍,如果和exec搭配使用很有用,因为有exec选项,会直接执行后续命令,默认不会打印find结果.</span></span></div></pre></td></tr></table></figure></p>
-<p>举个栗子:<br><figure class="highlight sqf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">find</span> -<span class="built_in">name</span> <span class="string">"my*"</span></div><div class="line"><span class="built_in">find</span> ./ -<span class="built_in">type</span> d -print -<span class="built_in">exec</span> ls &#123;&#125; \;</div><div class="line"><span class="built_in">find</span> ./ -<span class="built_in">type</span> d -print -<span class="built_in">exec</span> ls &#123;&#125; +</div></pre></td></tr></table></figure></p>
-<p>第一个是每一个目录单独执行ls命令<br>第二个是找到的目录添加到ls后一次执行,参数过长会分多次执行.</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://dpanyu.com/blog/2017/03/25/hexo.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="coolroad">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="欲将轻骑逐，大雪满弓刀">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/2017/03/25/hexo.html" itemprop="url">
-                  搭建hexo博客
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-25T22:49:11+08:00">
-                2017-03-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/blog/2017/03/25/hexo.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2017/03/25/hexo.html" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><ul>
-<li><p>安装</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">mkdir</span> hexo  #创建一个文件夹</div><div class="line"><span class="keyword">cd</span> hexo</div><div class="line">npm install -<span class="keyword">g</span> hexo-<span class="keyword">cli</span></div><div class="line">npm install hexo --<span class="keyword">save</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>部署Hexo：在Git shell 中输入</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">hexo init</span></div></pre></td></tr></table></figure>
-</li>
-</ul>
+          <h1 id="从命令行打开图形文件管理器"><a href="#从命令行打开图形文件管理器" class="headerlink" title="从命令行打开图形文件管理器"></a>从命令行打开图形文件管理器</h1><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">nautilus</span> 目录或者文件(是文件,则文件被选中)</div></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/blog/2017/03/25/hexo.html#more" rel="contents">
+            <a class="btn" href="/blog/2017/03/26/ubuntu文件相关命令.html#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1071,6 +905,170 @@
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/blog/2017/03/25/markdown.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://dpanyu.com/blog/2017/03/25/hexo.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="coolroad">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="欲将轻骑逐，大雪满弓刀">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/2017/03/25/hexo.html" itemprop="url">
+                  搭建hexo博客
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-25T22:49:11+08:00">
+                2017-03-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/2017/03/25/hexo.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2017/03/25/hexo.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><ul>
+<li><p>安装</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">mkdir</span> hexo  #创建一个文件夹</div><div class="line"><span class="keyword">cd</span> hexo</div><div class="line">npm install -<span class="keyword">g</span> hexo-<span class="keyword">cli</span></div><div class="line">npm install hexo --<span class="keyword">save</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>部署Hexo：在Git shell 中输入</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">hexo init</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/blog/2017/03/25/hexo.html#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
