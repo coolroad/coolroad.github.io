@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dpanyu.com/"/>
-  <updated>2017-03-25T14:49:11.455Z</updated>
+  <updated>2017-03-26T01:58:48.510Z</updated>
   <id>http://dpanyu.com/</id>
   
   <author>
@@ -14,6 +14,119 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ubuntu文件相关命令</title>
+    <link href="http://dpanyu.com//blog/2017/03/26/ubuntu%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4.html"/>
+    <id>http://dpanyu.com//blog/2017/03/26/ubuntu文件相关命令.html</id>
+    <published>2017-03-26T01:58:48.538Z</published>
+    <updated>2017-03-26T01:58:48.510Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="从命令行打开图形文件管理器"><a href="#从命令行打开图形文件管理器" class="headerlink" title="从命令行打开图形文件管理器"></a>从命令行打开图形文件管理器</h1><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">nautilus</span> 目录或者文件(是文件,则文件被选中)</div></pre></td></tr></table></figure>
+<h1 id="快速定位文件目录"><a href="#快速定位文件目录" class="headerlink" title="快速定位文件目录"></a>快速定位文件目录</h1><figure class="highlight gauss"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">locate</span> 文件名(可以带路径)</div></pre></td></tr></table></figure>
+<p>是find -name的另一种写法,不过快得多,因为他使用的是每天更新数据库.<br>支持模糊搜索,类似sql的like %文件名%<br>-i 忽略大小写<br>updatedb 更新locate数据库</p>
+<h1 id="find"><a href="#find" class="headerlink" title="find"></a>find</h1><figure class="highlight arduino"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">find</span> path -regex <span class="string">"带路径的文件正则"</span></div></pre></td></tr></table></figure>
+<p>find命令可选项非常多.<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby">iregex 忽略大小写</span></div><div class="line">-<span class="ruby">size [+<span class="params">|-]数字(c字节|</span>k<span class="params">|M|</span>G)</span></div><div class="line">-<span class="ruby">mtime [+<span class="params">|-]数字 更新时间,单位天</span></span></div><div class="line">-<span class="ruby"><span class="params">mmin [+|</span>-]数字 更新时间,单位分</span></div><div class="line">-<span class="ruby">name 模糊匹配文件名称</span></div><div class="line">-<span class="ruby">type (d<span class="params">|f) d目录f文件</span></span></div><div class="line">-<span class="ruby"><span class="params">exec 对查找结果执行后续命令</span></span></div><div class="line">-<span class="ruby"><span class="params">ok 对查找结果执行后续命令,后续命令需要确认</span></span></div><div class="line">-<span class="ruby"><span class="params">print 对查找结果输出一遍,如果和exec搭配使用很有用,因为有exec选项,会直接执行后续命令,默认不会打印find结果.</span></span></div></pre></td></tr></table></figure></p>
+<p>举个栗子:<br><figure class="highlight sqf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">find</span> -<span class="built_in">name</span> <span class="string">"my*"</span></div><div class="line"><span class="built_in">find</span> ./ -<span class="built_in">type</span> d -print -<span class="built_in">exec</span> ls &#123;&#125; \;</div><div class="line"><span class="built_in">find</span> ./ -<span class="built_in">type</span> d -print -<span class="built_in">exec</span> ls &#123;&#125; +</div></pre></td></tr></table></figure></p>
+<p>第一个是每一个目录单独执行ls命令<br>第二个是找到的目录添加到ls后一次执行,参数过长会分多次执行.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;从命令行打开图形文件管理器&quot;&gt;&lt;a href=&quot;#从命令行打开图形文件管理器&quot; class=&quot;headerlink&quot; title=&quot;从命令行打开图形文件管理器&quot;&gt;&lt;/a&gt;从命令行打开图形文件管理器&lt;/h1&gt;&lt;figure class=&quot;highlight less
+    
+    </summary>
+    
+      <category term="shell" scheme="http://dpanyu.com/categories/shell/"/>
+    
+    
+      <category term="ubuntu" scheme="http://dpanyu.com/tags/ubuntu/"/>
+    
+      <category term="shell" scheme="http://dpanyu.com/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建hexo博客</title>
+    <link href="http://dpanyu.com//blog/2017/03/25/hexo.html"/>
+    <id>http://dpanyu.com//blog/2017/03/25/hexo.html</id>
+    <published>2017-03-25T14:49:11.455Z</published>
+    <updated>2017-03-25T14:49:11.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><ul>
+<li><p>安装</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">mkdir</span> hexo  #创建一个文件夹</div><div class="line"><span class="keyword">cd</span> hexo</div><div class="line">npm install -<span class="keyword">g</span> hexo-<span class="keyword">cli</span></div><div class="line">npm install hexo --<span class="keyword">save</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>部署Hexo：在Git shell 中输入</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">hexo init</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+<a id="more"></a>
+<ul>
+<li>安装Hexo 插件：自动生成sitemap,Rss，部署到git等，建议安装<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">index</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">archive</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">category</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-tag <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-heroku <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-rsync <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-openshift <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-marked@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-stylus@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-feed@<span class="number">1</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-sitemap@<span class="number">1</span> <span class="comment">--save</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h1><p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next主题</a> 链接</p>
+<h2 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="keyword">cd</span> hexo目录</div><div class="line">$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/iissnan/hexo-theme-<span class="keyword">next</span> themes/<span class="keyword">next</span></div></pre></td></tr></table></figure>
+<h2 id="应用Hexo主题"><a href="#应用Hexo主题" class="headerlink" title="应用Hexo主题"></a>应用Hexo主题</h2><p>在hexo目录下找到_config.yml配置文件，找到 theme 字段，并将其值更改为 next，如下所示：<br><figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: <span class="keyword">next</span></div></pre></td></tr></table></figure></p>
+<h2 id="添加404页面"><a href="#添加404页面" class="headerlink" title="添加404页面"></a>添加404页面</h2><p>新建一个404.html文件，放到themes\next\source目录下，内容你自己定。</p>
+<p><em>主题设置<a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">这个博客</a>写的非常详细，如需请移步。</em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;安装&lt;/p&gt;
+&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;mkdir&lt;/span&gt; hexo  #创建一个文件夹&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;cd&lt;/span&gt; hexo&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt; hexo-&lt;span class=&quot;keyword&quot;&gt;cli&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo --&lt;span class=&quot;keyword&quot;&gt;save&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;部署Hexo：在Git shell 中输入&lt;/p&gt;
+&lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;hexo init&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo常用命令</title>
+    <link href="http://dpanyu.com//blog/2017/03/25/hello-world.html"/>
+    <id>http://dpanyu.com//blog/2017/03/25/hello-world.html</id>
+    <published>2017-03-25T14:49:11.455Z</published>
+    <updated>2017-03-25T14:49:11.455Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a><br><a id="more"></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
+    
+      <category term="blog" scheme="http://dpanyu.com/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>elasticsearch中的段</title>
@@ -115,88 +228,6 @@
   </entry>
   
   <entry>
-    <title>Hexo常用命令</title>
-    <link href="http://dpanyu.com//blog/2017/03/25/hello-world.html"/>
-    <id>http://dpanyu.com//blog/2017/03/25/hello-world.html</id>
-    <published>2017-03-25T14:49:11.455Z</published>
-    <updated>2017-03-25T14:49:11.455Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a><br><a id="more"></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
-    
-    
-      <category term="blog" scheme="http://dpanyu.com/tags/blog/"/>
-    
-      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建hexo博客</title>
-    <link href="http://dpanyu.com//blog/2017/03/25/hexo.html"/>
-    <id>http://dpanyu.com//blog/2017/03/25/hexo.html</id>
-    <published>2017-03-25T14:49:11.455Z</published>
-    <updated>2017-03-25T14:49:11.455Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><ul>
-<li><p>安装</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">mkdir</span> hexo  #创建一个文件夹</div><div class="line"><span class="keyword">cd</span> hexo</div><div class="line">npm install -<span class="keyword">g</span> hexo-<span class="keyword">cli</span></div><div class="line">npm install hexo --<span class="keyword">save</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>部署Hexo：在Git shell 中输入</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">hexo init</span></div></pre></td></tr></table></figure>
-</li>
-</ul>
-<a id="more"></a>
-<ul>
-<li>安装Hexo 插件：自动生成sitemap,Rss，部署到git等，建议安装<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">index</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">archive</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">category</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-tag <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-heroku <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-rsync <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-openshift <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-marked@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-stylus@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-feed@<span class="number">1</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-sitemap@<span class="number">1</span> <span class="comment">--save</span></div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h1 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h1><p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next主题</a> 链接</p>
-<h2 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="keyword">cd</span> hexo目录</div><div class="line">$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/iissnan/hexo-theme-<span class="keyword">next</span> themes/<span class="keyword">next</span></div></pre></td></tr></table></figure>
-<h2 id="应用Hexo主题"><a href="#应用Hexo主题" class="headerlink" title="应用Hexo主题"></a>应用Hexo主题</h2><p>在hexo目录下找到_config.yml配置文件，找到 theme 字段，并将其值更改为 next，如下所示：<br><figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: <span class="keyword">next</span></div></pre></td></tr></table></figure></p>
-<h2 id="添加404页面"><a href="#添加404页面" class="headerlink" title="添加404页面"></a>添加404页面</h2><p>新建一个404.html文件，放到themes\next\source目录下，内容你自己定。</p>
-<p><em>主题设置<a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">这个博客</a>写的非常详细，如需请移步。</em></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;安装&lt;/p&gt;
-&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;mkdir&lt;/span&gt; hexo  #创建一个文件夹&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;cd&lt;/span&gt; hexo&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt; hexo-&lt;span class=&quot;keyword&quot;&gt;cli&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo --&lt;span class=&quot;keyword&quot;&gt;save&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;部署Hexo：在Git shell 中输入&lt;/p&gt;
-&lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;hexo init&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>markdown语法</title>
     <link href="http://dpanyu.com//blog/2017/03/25/markdown.html"/>
     <id>http://dpanyu.com//blog/2017/03/25/markdown.html</id>
@@ -242,32 +273,6 @@
       <category term="markdown" scheme="http://dpanyu.com/tags/markdown/"/>
     
       <category term="语法" scheme="http://dpanyu.com/tags/%E8%AF%AD%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ubuntu文件相关命令</title>
-    <link href="http://dpanyu.com//blog/2017/03/25/ubuntu%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4.html"/>
-    <id>http://dpanyu.com//blog/2017/03/25/ubuntu文件相关命令.html</id>
-    <published>2017-03-25T14:41:12.563Z</published>
-    <updated>2017-03-25T14:41:12.535Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="从命令行打开图形文件管理器"><a href="#从命令行打开图形文件管理器" class="headerlink" title="从命令行打开图形文件管理器"></a>从命令行打开图形文件管理器</h1><p>````<br>nautilus 目录或者文件(是文件,则文件被选中)</p>
-<h1 id="快速定位文件目录"><a href="#快速定位文件目录" class="headerlink" title="快速定位文件目录"></a>快速定位文件目录</h1><p>locate 文件名<br>支持模糊搜索,类似sql的like %文件名%</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;从命令行打开图形文件管理器&quot;&gt;&lt;a href=&quot;#从命令行打开图形文件管理器&quot; class=&quot;headerlink&quot; title=&quot;从命令行打开图形文件管理器&quot;&gt;&lt;/a&gt;从命令行打开图形文件管理器&lt;/h1&gt;&lt;p&gt;````&lt;br&gt;nautilus 目录或者文件(是文
-    
-    </summary>
-    
-      <category term="shell" scheme="http://dpanyu.com/categories/shell/"/>
-    
-    
-      <category term="ubuntu" scheme="http://dpanyu.com/tags/ubuntu/"/>
-    
-      <category term="shell" scheme="http://dpanyu.com/tags/shell/"/>
     
   </entry>
   
