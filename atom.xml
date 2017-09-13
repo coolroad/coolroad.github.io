@@ -4,9 +4,9 @@
   <subtitle>清梦</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://dpanyu.com/"/>
-  <updated>2017-03-26T10:15:34.740Z</updated>
-  <id>http://dpanyu.com/</id>
+  <link href="https://coolroad.github.io/"/>
+  <updated>2017-09-12T10:41:12.813Z</updated>
+  <id>https://coolroad.github.io/</id>
   
   <author>
     <name>coolroad</name>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>ubuntu文件相关命令</title>
-    <link href="http://dpanyu.com//blog/2017/03/26/ubuntu%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4.html"/>
-    <id>http://dpanyu.com//blog/2017/03/26/ubuntu文件相关命令.html</id>
-    <published>2017-03-26T10:15:34.780Z</published>
-    <updated>2017-03-26T10:15:34.740Z</updated>
+    <link href="https://coolroad.github.io//blog/2017/09/12/ubuntu%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://coolroad.github.io//blog/2017/09/12/ubuntu文件相关命令.html</id>
+    <published>2017-09-12T10:41:12.808Z</published>
+    <updated>2017-09-12T10:41:12.813Z</updated>
     
     <content type="html"><![CDATA[<h1 id="从命令行打开图形文件管理器"><a href="#从命令行打开图形文件管理器" class="headerlink" title="从命令行打开图形文件管理器"></a>从命令行打开图形文件管理器</h1><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">nautilus</span> 目录或者文件(是文件,则文件被选中)</div></pre></td></tr></table></figure>
 <a id="more"></a>
@@ -38,56 +38,163 @@
     
     </summary>
     
-      <category term="shell" scheme="http://dpanyu.com/categories/shell/"/>
+      <category term="shell" scheme="https://coolroad.github.io/categories/shell/"/>
     
     
-      <category term="ubuntu" scheme="http://dpanyu.com/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="https://coolroad.github.io/tags/ubuntu/"/>
     
-      <category term="shell" scheme="http://dpanyu.com/tags/shell/"/>
+      <category term="shell" scheme="https://coolroad.github.io/tags/shell/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo常用命令</title>
-    <link href="http://dpanyu.com//blog/2017/03/25/hello-world.html"/>
-    <id>http://dpanyu.com//blog/2017/03/25/hello-world.html</id>
-    <published>2017-03-25T14:49:11.455Z</published>
-    <updated>2017-03-25T14:49:11.455Z</updated>
+    <title></title>
+    <link href="https://coolroad.github.io//blog/2017/09/12/%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE.html"/>
+    <id>https://coolroad.github.io//blog/2017/09/12/虚拟机网络配置.html</id>
+    <published>2017-09-12T10:14:03.616Z</published>
+    <updated>2017-09-13T01:40:10.847Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a><br><a id="more"></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<ol>
+<li>打开虚拟机</li>
+<li>在需要配置的虚拟机上右键选择设置</li>
+<li><p>选中网络适配器，窗口右侧分两块：设备状态和网络连接<br>设备状态中确认勾选启动时连接；网络连接中有五个单选框：</p>
+<ul>
+<li>桥接模式</li>
+<li>NAT模式</li>
+<li>仅主机模式</li>
+<li>自定义</li>
+<li><p>LAN区段</p>
+<p>我们一般用前三种，桥接模式代表该虚拟机将直接从DHCP服务获取ip地址，<br>，直接通过路由器进行网络访问，与宿主机同等地位，网段也相同，比如宿主机ip为192.168.1.10，虚拟机ip<br>为192.168.1.20；<br>NAT模式代表该虚拟机将使用通过宿主机进行网路访问，使用安装在宿主机的<br>DHCP服务获取ip，此时可通过菜单–&gt;虚拟网络编辑器，修改宿主机的DHCP服务设置；<br>比如将子网网段设置为192.168.68.0，那么虚拟机的ip可能是192.168.68.10，<br>此时宿主机的ip将是192.168.68.1。<br>仅主机模式代表虚拟机将不能访问网络，其他功能通NAT模式，同样以宿主机作为<br>路由，相当于一个局域网。</p>
+</li>
+</ul>
+</li>
+<li><p>上述方法之后，开机虚拟机，正常开启之后，虚拟机将获得一个IP地址，不过<br>该地址是动态获取的，如果需要将虚拟机的地址固定，则编辑/etc/sysconfig/network-scripts/ifcfg-eth0<br>修改其中的IPADDR的值为自己想配置的ip地址，比如<br><code>IPADDR=192.168.146.27</code></p>
+<p> 另外修改网关</p>
+<p> <code>GATEWAY=192.168.146.254</code></p>
+<p> wq保存之后执行</p>
+ <figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">ifdown</span> eth0</div><div class="line">ifup eth0</div></pre></td></tr></table></figure>
+<p> 重启网卡即可。</p>
+</li>
+</ol>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;
+      &lt;ol&gt;
+&lt;li&gt;打开虚拟机&lt;/li&gt;
+&lt;li&gt;在需要配置的虚拟机上右键选择设置&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选中网络适配器，窗口右侧分两块：设备状态和网络连接&lt;br&gt;设备状态中确认勾选启动时连接；网络连接中有五个单选框：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;桥接模式&lt;/li&gt;
+&lt;li&gt;NAT
     
     </summary>
     
-      <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建hexo博客</title>
+    <link href="https://coolroad.github.io//blog/2017/03/17/hexo.html"/>
+    <id>https://coolroad.github.io//blog/2017/03/17/hexo.html</id>
+    <published>2017-03-17T01:41:00.110Z</published>
+    <updated>2017-03-17T05:24:49.772Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><ul>
+<li><p>安装</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">mkdir</span> hexo  #创建一个文件夹</div><div class="line"><span class="keyword">cd</span> hexo</div><div class="line">npm install -<span class="keyword">g</span> hexo-<span class="keyword">cli</span></div><div class="line">npm install hexo --<span class="keyword">save</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>部署Hexo：在Git shell 中输入</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">hexo init</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+<a id="more"></a>
+<ul>
+<li>安装Hexo 插件：自动生成sitemap,Rss，部署到git等，建议安装<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">index</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">archive</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">category</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-tag <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-heroku <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-rsync <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-openshift <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-marked@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-stylus@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-feed@<span class="number">1</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-sitemap@<span class="number">1</span> <span class="comment">--save</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h1><p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next主题</a> 链接</p>
+<h2 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="keyword">cd</span> hexo目录</div><div class="line">$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/iissnan/hexo-theme-<span class="keyword">next</span> themes/<span class="keyword">next</span></div></pre></td></tr></table></figure>
+<h2 id="应用Hexo主题"><a href="#应用Hexo主题" class="headerlink" title="应用Hexo主题"></a>应用Hexo主题</h2><p>在hexo目录下找到_config.yml配置文件，找到 theme 字段，并将其值更改为 next，如下所示：<br><figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: <span class="keyword">next</span></div></pre></td></tr></table></figure></p>
+<h2 id="添加404页面"><a href="#添加404页面" class="headerlink" title="添加404页面"></a>添加404页面</h2><p>新建一个404.html文件，放到themes\next\source目录下，内容你自己定。</p>
+<p><em>主题设置<a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">这个博客</a>写的非常详细，如需请移步。</em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;安装&lt;/p&gt;
+&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;mkdir&lt;/span&gt; hexo  #创建一个文件夹&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;cd&lt;/span&gt; hexo&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt; hexo-&lt;span class=&quot;keyword&quot;&gt;cli&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo --&lt;span class=&quot;keyword&quot;&gt;save&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;部署Hexo：在Git shell 中输入&lt;/p&gt;
+&lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;hexo init&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://coolroad.github.io/categories/hexo/"/>
     
     
-      <category term="blog" scheme="http://dpanyu.com/tags/blog/"/>
+      <category term="hexo" scheme="https://coolroad.github.io/tags/hexo/"/>
     
-      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
+  </entry>
+  
+  <entry>
+    <title>markdown语法</title>
+    <link href="https://coolroad.github.io//blog/2017/03/16/markdown.html"/>
+    <id>https://coolroad.github.io//blog/2017/03/16/markdown.html</id>
+    <published>2017-03-16T03:16:28.059Z</published>
+    <updated>2017-03-17T05:26:04.689Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>由一个或多个连续的文本行组成，它的前后要有一个以上的空行；<br>允许段落内的强迫换行（插入换行符）<br>需要插入<code>&lt;br/&gt;</code>处先按入两个以上的空格然后回车</p>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="section"># 一级标题</span></div><div class="line"><span class="section">## 二级标题</span></div><div class="line"><span class="section">### 三级标题</span></div><div class="line"><span class="section">#### 四级标题</span></div><div class="line"><span class="section">##### 五级标题</span></div><div class="line"><span class="section">###### 六级标题</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>无序<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> 文本<span class="number">1</span></span></div><div class="line">-<span class="ruby"> 文本<span class="number">2</span></span></div><div class="line">-<span class="ruby"> 文本<span class="number">3</span></span></div></pre></td></tr></table></figure></p>
+<p>有序<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span> 文本<span class="number">1</span></div><div class="line"><span class="number">2.</span> 文本<span class="number">2</span></div><div class="line"><span class="number">3.</span> 文本<span class="number">3</span></div></pre></td></tr></table></figure></p>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight coq"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Tables</span>        | <span class="type">Are</span>           | <span class="type">Cool</span>  </div><div class="line">----------- |<span class="type">------------| -----</span></div><div class="line">col <span class="number">3</span> is      | <span class="type">right</span>-aligned | <span class="type">$1600</span> </div><div class="line">col <span class="number">2</span> is      | <span class="type">centered</span>       |   <span class="type">$12</span> </div><div class="line">zebra stripes | <span class="type">are</span> neat    |    <span class="type">$1</span></div></pre></td></tr></table></figure>
+<h1 id="粗体和斜体"><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h1><p>粗体：两个<code>*</code>或者<code>_</code> 包含一段文本<br>斜体：一个<code>*</code>或者<code>_</code>包含一段文本</p>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>在希望引用的文字前面加上 <code>&gt;</code>。<br><code>&gt;</code> 和文本之间要保留一个字符的空格，上下保留空行，否则会导致无法退出引用。<br>引用可以嵌套，嵌套层次依<code>&gt;</code>数量定。<br>列表内引用需要缩进。</p>
+<h1 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h1><p>以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="string">http:</span><span class="comment">//example.com/&gt;</span></div></pre></td></tr></table></figure></p>
+<p>Markdown 会转为：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="selector-tag">a</span> href=<span class="string">"http://example.com/"</span>&gt;http:<span class="comment">//example.com/&lt;/a&gt;</span></div></pre></td></tr></table></figure></p>
+<h1 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h1><p>行内式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[<span class="string">显示文本</span>](<span class="link">链接地址</span>)</div><div class="line">[<span class="string">显示文本</span>](<span class="link">链接地址 "optional title"</span>)</div><div class="line">!\[<span class="string">alt text</span>](<span class="link">图片链接地址</span>)</div><div class="line">!\[<span class="string">alt text</span>](<span class="link">图片链接地址 "optional title"</span>)</div></pre></td></tr></table></figure></p>
+<p>不能指定宽高，如需，使用img标签。<br>参考式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">![<span class="string">alt text</span>][<span class="symbol">链接标签</span>]</div><div class="line">[<span class="symbol">链接标签</span>]: <span class="link">http://dpanyu.com "optional title"</span></div></pre></td></tr></table></figure></p>
+<p>参考式简版：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[<span class="string">Google</span>][<span class="symbol"></span>]</div><div class="line">[<span class="symbol">Google</span>]: <span class="link">http://google.com/</span></div></pre></td></tr></table></figure></p>
+<p>这种方式链接网址如果很长，title可以换行。<br>链接标签不区分大小写。<br>总结：</p>
+<ul>
+<li>方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字</li>
+<li>接着一个冒号</li>
+<li>接着一个以上的空格或制表符</li>
+<li>接着链接的网址</li>
+<li>选择性地接着 title 内容，可以用单引号、双引号或是括弧包着</li>
+</ul>
+<h1 id="代码引用"><a href="#代码引用" class="headerlink" title="代码引用"></a>代码引用</h1><p>如果引用的语句只有一段，不分行，可以用\ 将语句包起来。<br>如果引用的语句为多行，可以将```置于这段代码的首行和末行。<br>如果要在代码段内插入反引号本身，就使用多个反引号开始和结束。</p>
+<h1 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h1><p>缩进 4 个空格或是 1 个制表符；<br>一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）。<br>与代码引用的区别在于没有行号及代码高亮。</p>
+<h1 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h1><p>用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;段落&quot;&gt;&lt;a href=&quot;#段落&quot; class=&quot;headerlink&quot; title=&quot;段落&quot;&gt;&lt;/a&gt;段落&lt;/h1&gt;&lt;p&gt;由一个或多个连续的文本行组成，它的前后要有一个以上的空行；&lt;br&gt;允许段落内的强迫换行（插入换行符）&lt;br&gt;需要插入&lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;处先按入两个以上的空格然后回车&lt;/p&gt;
+&lt;h1 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h1&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;# 一级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;## 二级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;### 三级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;#### 四级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;##### 五级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;###### 六级标题&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="markdown" scheme="https://coolroad.github.io/categories/markdown/"/>
+    
+    
+      <category term="markdown" scheme="https://coolroad.github.io/tags/markdown/"/>
+    
+      <category term="语法" scheme="https://coolroad.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>elasticsearch中的段</title>
-    <link href="http://dpanyu.com//blog/2017/03/25/elasticsearch%E6%AE%B5%E5%90%88%E5%B9%B6.html"/>
-    <id>http://dpanyu.com//blog/2017/03/25/elasticsearch段合并.html</id>
-    <published>2017-03-25T14:49:11.455Z</published>
-    <updated>2017-03-25T14:49:11.455Z</updated>
+    <link href="https://coolroad.github.io//blog/2017/03/16/elasticsearch%E6%AE%B5%E5%90%88%E5%B9%B6.html"/>
+    <id>https://coolroad.github.io//blog/2017/03/16/elasticsearch段合并.html</id>
+    <published>2017-03-16T02:56:41.815Z</published>
+    <updated>2017-03-17T05:25:08.524Z</updated>
     
     <content type="html"><![CDATA[<p>　　段消费文件句柄，内存，cpu资源。更重要的是，每次搜索请求都需要依次检查每个段。段越多，查询越慢。<br>ES通过后台合并段解决这个问题。</p>
 <p>　　段文件是无法改动的，因此段数据信息不会删除。如果恰好删除了索引中的很多文档，在索引合并之前，这些文档只是标记删除，并非物理删除。因此，当段合并时，标记删除的文档不会写入到新的段中，通过这种方式实现真正的删除，并缩减了段数据的大小。<br><a id="more"></a></p>
@@ -172,108 +279,47 @@
     
     </summary>
     
-      <category term="elasticsearch" scheme="http://dpanyu.com/categories/elasticsearch/"/>
+      <category term="elasticsearch" scheme="https://coolroad.github.io/categories/elasticsearch/"/>
     
     
-      <category term="elasticsearch" scheme="http://dpanyu.com/tags/elasticsearch/"/>
+      <category term="elasticsearch" scheme="https://coolroad.github.io/tags/elasticsearch/"/>
     
-      <category term="segment" scheme="http://dpanyu.com/tags/segment/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown语法</title>
-    <link href="http://dpanyu.com//blog/2017/03/25/markdown.html"/>
-    <id>http://dpanyu.com//blog/2017/03/25/markdown.html</id>
-    <published>2017-03-25T14:49:11.455Z</published>
-    <updated>2017-03-25T14:49:11.455Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>由一个或多个连续的文本行组成，它的前后要有一个以上的空行；<br>允许段落内的强迫换行（插入换行符）<br>需要插入<code>&lt;br/&gt;</code>处先按入两个以上的空格然后回车</p>
-<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="section"># 一级标题</span></div><div class="line"><span class="section">## 二级标题</span></div><div class="line"><span class="section">### 三级标题</span></div><div class="line"><span class="section">#### 四级标题</span></div><div class="line"><span class="section">##### 五级标题</span></div><div class="line"><span class="section">###### 六级标题</span></div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>无序<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby"> 文本<span class="number">1</span></span></div><div class="line">-<span class="ruby"> 文本<span class="number">2</span></span></div><div class="line">-<span class="ruby"> 文本<span class="number">3</span></span></div></pre></td></tr></table></figure></p>
-<p>有序<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span> 文本<span class="number">1</span></div><div class="line"><span class="number">2.</span> 文本<span class="number">2</span></div><div class="line"><span class="number">3.</span> 文本<span class="number">3</span></div></pre></td></tr></table></figure></p>
-<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight coq"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Tables</span>        | <span class="type">Are</span>           | <span class="type">Cool</span>  </div><div class="line">----------- |<span class="type">------------| -----</span></div><div class="line">col <span class="number">3</span> is      | <span class="type">right</span>-aligned | <span class="type">$1600</span> </div><div class="line">col <span class="number">2</span> is      | <span class="type">centered</span>       |   <span class="type">$12</span> </div><div class="line">zebra stripes | <span class="type">are</span> neat    |    <span class="type">$1</span></div></pre></td></tr></table></figure>
-<h1 id="粗体和斜体"><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h1><p>粗体：两个<code>*</code>或者<code>_</code> 包含一段文本<br>斜体：一个<code>*</code>或者<code>_</code>包含一段文本</p>
-<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>在希望引用的文字前面加上 <code>&gt;</code>。<br><code>&gt;</code> 和文本之间要保留一个字符的空格，上下保留空行，否则会导致无法退出引用。<br>引用可以嵌套，嵌套层次依<code>&gt;</code>数量定。<br>列表内引用需要缩进。</p>
-<h1 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h1><p>以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="string">http:</span><span class="comment">//example.com/&gt;</span></div></pre></td></tr></table></figure></p>
-<p>Markdown 会转为：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="selector-tag">a</span> href=<span class="string">"http://example.com/"</span>&gt;http:<span class="comment">//example.com/&lt;/a&gt;</span></div></pre></td></tr></table></figure></p>
-<h1 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h1><p>行内式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[<span class="string">显示文本</span>](<span class="link">链接地址</span>)</div><div class="line">[<span class="string">显示文本</span>](<span class="link">链接地址 "optional title"</span>)</div><div class="line">!\[<span class="string">alt text</span>](<span class="link">图片链接地址</span>)</div><div class="line">!\[<span class="string">alt text</span>](<span class="link">图片链接地址 "optional title"</span>)</div></pre></td></tr></table></figure></p>
-<p>不能指定宽高，如需，使用img标签。<br>参考式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">![<span class="string">alt text</span>][<span class="symbol">链接标签</span>]</div><div class="line">[<span class="symbol">链接标签</span>]: <span class="link">http://dpanyu.com "optional title"</span></div></pre></td></tr></table></figure></p>
-<p>参考式简版：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[<span class="string">Google</span>][<span class="symbol"></span>]</div><div class="line">[<span class="symbol">Google</span>]: <span class="link">http://google.com/</span></div></pre></td></tr></table></figure></p>
-<p>这种方式链接网址如果很长，title可以换行。<br>链接标签不区分大小写。<br>总结：</p>
-<ul>
-<li>方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字</li>
-<li>接着一个冒号</li>
-<li>接着一个以上的空格或制表符</li>
-<li>接着链接的网址</li>
-<li>选择性地接着 title 内容，可以用单引号、双引号或是括弧包着</li>
-</ul>
-<h1 id="代码引用"><a href="#代码引用" class="headerlink" title="代码引用"></a>代码引用</h1><p>如果引用的语句只有一段，不分行，可以用\ 将语句包起来。<br>如果引用的语句为多行，可以将```置于这段代码的首行和末行。<br>如果要在代码段内插入反引号本身，就使用多个反引号开始和结束。</p>
-<h1 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h1><p>缩进 4 个空格或是 1 个制表符；<br>一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）。<br>与代码引用的区别在于没有行号及代码高亮。</p>
-<h1 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h1><p>用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;段落&quot;&gt;&lt;a href=&quot;#段落&quot; class=&quot;headerlink&quot; title=&quot;段落&quot;&gt;&lt;/a&gt;段落&lt;/h1&gt;&lt;p&gt;由一个或多个连续的文本行组成，它的前后要有一个以上的空行；&lt;br&gt;允许段落内的强迫换行（插入换行符）&lt;br&gt;需要插入&lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;处先按入两个以上的空格然后回车&lt;/p&gt;
-&lt;h1 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h1&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;# 一级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;## 二级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;### 三级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;#### 四级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;##### 五级标题&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;###### 六级标题&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="markdown" scheme="http://dpanyu.com/categories/markdown/"/>
-    
-    
-      <category term="markdown" scheme="http://dpanyu.com/tags/markdown/"/>
-    
-      <category term="语法" scheme="http://dpanyu.com/tags/%E8%AF%AD%E6%B3%95/"/>
+      <category term="segment" scheme="https://coolroad.github.io/tags/segment/"/>
     
   </entry>
   
   <entry>
-    <title>搭建hexo博客</title>
-    <link href="http://dpanyu.com//blog/2017/03/25/hexo.html"/>
-    <id>http://dpanyu.com//blog/2017/03/25/hexo.html</id>
-    <published>2017-03-25T14:49:11.455Z</published>
-    <updated>2017-03-25T14:49:11.455Z</updated>
+    <title>Hexo常用命令</title>
+    <link href="https://coolroad.github.io//blog/2017/03/16/hello-world.html"/>
+    <id>https://coolroad.github.io//blog/2017/03/16/hello-world.html</id>
+    <published>2017-03-16T02:21:45.889Z</published>
+    <updated>2017-03-17T05:25:46.658Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><ul>
-<li><p>安装</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">mkdir</span> hexo  #创建一个文件夹</div><div class="line"><span class="keyword">cd</span> hexo</div><div class="line">npm install -<span class="keyword">g</span> hexo-<span class="keyword">cli</span></div><div class="line">npm install hexo --<span class="keyword">save</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>部署Hexo：在Git shell 中输入</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">hexo init</span></div></pre></td></tr></table></figure>
-</li>
-</ul>
-<a id="more"></a>
-<ul>
-<li>安装Hexo 插件：自动生成sitemap,Rss，部署到git等，建议安装<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">index</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">archive</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">category</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-tag <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-heroku <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-rsync <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-deployer-openshift <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-marked@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-renderer-stylus@<span class="number">0.2</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-feed@<span class="number">1</span> <span class="comment">--save</span></div><div class="line">npm <span class="keyword">install</span> hexo-generator-sitemap@<span class="number">1</span> <span class="comment">--save</span></div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h1 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h1><p><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">next主题</a> 链接</p>
-<h2 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="keyword">cd</span> hexo目录</div><div class="line">$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/iissnan/hexo-theme-<span class="keyword">next</span> themes/<span class="keyword">next</span></div></pre></td></tr></table></figure>
-<h2 id="应用Hexo主题"><a href="#应用Hexo主题" class="headerlink" title="应用Hexo主题"></a>应用Hexo主题</h2><p>在hexo目录下找到_config.yml配置文件，找到 theme 字段，并将其值更改为 next，如下所示：<br><figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: <span class="keyword">next</span></div></pre></td></tr></table></figure></p>
-<h2 id="添加404页面"><a href="#添加404页面" class="headerlink" title="添加404页面"></a>添加404页面</h2><p>新建一个404.html文件，放到themes\next\source目录下，内容你自己定。</p>
-<p><em>主题设置<a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">这个博客</a>写的非常详细，如需请移步。</em></p>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a><br><a id="more"></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;安装&lt;/p&gt;
-&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;mkdir&lt;/span&gt; hexo  #创建一个文件夹&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;cd&lt;/span&gt; hexo&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt; hexo-&lt;span class=&quot;keyword&quot;&gt;cli&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo --&lt;span class=&quot;keyword&quot;&gt;save&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;部署Hexo：在Git shell 中输入&lt;/p&gt;
-&lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;hexo init&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
-      <category term="hexo" scheme="http://dpanyu.com/categories/hexo/"/>
+      <category term="hexo" scheme="https://coolroad.github.io/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://dpanyu.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://coolroad.github.io/tags/hexo/"/>
+    
+      <category term="blog" scheme="https://coolroad.github.io/tags/blog/"/>
     
   </entry>
   
