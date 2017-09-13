@@ -583,31 +583,17 @@
 
       
         
-          
-            <ol>
+          <ol>
 <li>打开虚拟机</li>
 <li>在需要配置的虚拟机上右键选择设置</li>
-<li><p>选中网络适配器，窗口右侧分两块：设备状态和网络连接<br>设备状态中确认勾选启动时连接；网络连接中有五个单选框：</p>
-<ul>
-<li>桥接模式</li>
-<li>NAT模式</li>
-<li>仅主机模式</li>
-<li>自定义</li>
-<li><p>LAN区段</p>
-<p>我们一般用前三种，桥接模式代表该虚拟机将直接从DHCP服务获取ip地址，<br>，直接通过路由器进行网络访问，与宿主机同等地位，网段也相同，比如宿主机ip为192.168.1.10，虚拟机ip<br>为192.168.1.20；<br>NAT模式代表该虚拟机将使用通过宿主机进行网路访问，使用安装在宿主机的<br>DHCP服务获取ip，此时可通过菜单–&gt;虚拟网络编辑器，修改宿主机的DHCP服务设置；<br>比如将子网网段设置为192.168.68.0，那么虚拟机的ip可能是192.168.68.10，<br>此时宿主机的ip将是192.168.68.1。<br>仅主机模式代表虚拟机将不能访问网络，其他功能通NAT模式，同样以宿主机作为<br>路由，相当于一个局域网。</p>
-</li>
-</ul>
-</li>
-<li><p>上述方法之后，开机虚拟机，正常开启之后，虚拟机将获得一个IP地址，不过<br>该地址是动态获取的，如果需要将虚拟机的地址固定，则编辑/etc/sysconfig/network-scripts/ifcfg-eth0<br>修改其中的IPADDR的值为自己想配置的ip地址，比如<br><code>IPADDR=192.168.146.27</code></p>
-<p> 另外修改网关</p>
-<p> <code>GATEWAY=192.168.146.254</code></p>
-<p> wq保存之后执行</p>
- <figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">ifdown</span> eth0</div><div class="line">ifup eth0</div></pre></td></tr></table></figure>
-<p> 重启网卡即可。</p>
-</li>
-</ol>
-
-          
+<li><p>选中网络适配器，窗口右侧分两块：设备状态和网络连接</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/blog/2017/09/12/虚拟机网络配置.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1526,6 +1512,21 @@
   
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
 
