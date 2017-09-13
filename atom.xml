@@ -48,11 +48,11 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>虚拟机网络配置</title>
     <link href="https://coolroad.github.io//blog/2017/09/12/%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE.html"/>
     <id>https://coolroad.github.io//blog/2017/09/12/虚拟机网络配置.html</id>
     <published>2017-09-12T10:14:03.616Z</published>
-    <updated>2017-09-13T01:40:10.847Z</updated>
+    <updated>2017-09-13T01:58:07.426Z</updated>
     
     <content type="html"><![CDATA[<ol>
 <li>打开虚拟机</li>
@@ -90,6 +90,12 @@
     
     </summary>
     
+      <category term="虚拟机" scheme="https://coolroad.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+      <category term="虚拟机" scheme="https://coolroad.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+      <category term="网络" scheme="https://coolroad.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
