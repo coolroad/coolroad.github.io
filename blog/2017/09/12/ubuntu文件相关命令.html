@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="elasticsearch,segment," />
+  <meta name="keywords" content="ubuntu,shell," />
 
 
 
@@ -89,25 +89,16 @@
 
 
 
-<meta name="description" content="段消费文件句柄，内存，cpu资源。更重要的是，每次搜索请求都需要依次检查每个段。段越多，查询越慢。ES通过后台合并段解决这个问题。
-　　段文件是无法改动的，因此段数据信息不会删除。如果恰好删除了索引中的很多文档，在索引合并之前，这些文档只是标记删除，并非物理删除。因此，当段合并时，标记删除的文档不会写入到新的段中，通过这种方式实现真正的删除，并缩减了段数据的大小。
-
-索引过程中，refresh">
+<meta name="description" content="从命令行打开图形文件管理器1nautilus 目录或者文件(是文件,则文件被选中)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="elasticsearch中的段">
-<meta property="og:url" content="http://dpanyu.com/blog/2017/03/16/elasticsearch段合并.html">
+<meta property="og:title" content="ubuntu文件相关命令">
+<meta property="og:url" content="http://dpanyu.com/blog/2017/09/12/ubuntu文件相关命令.html">
 <meta property="og:site_name" content="欲将轻骑逐，大雪满弓刀">
-<meta property="og:description" content="段消费文件句柄，内存，cpu资源。更重要的是，每次搜索请求都需要依次检查每个段。段越多，查询越慢。ES通过后台合并段解决这个问题。
-　　段文件是无法改动的，因此段数据信息不会删除。如果恰好删除了索引中的很多文档，在索引合并之前，这些文档只是标记删除，并非物理删除。因此，当段合并时，标记删除的文档不会写入到新的段中，通过这种方式实现真正的删除，并缩减了段数据的大小。
-
-索引过程中，refresh">
-<meta property="og:updated_time" content="2017-03-16T14:07:14.433Z">
+<meta property="og:description" content="从命令行打开图形文件管理器1nautilus 目录或者文件(是文件,则文件被选中)">
+<meta property="og:updated_time" content="2017-09-12T10:41:12.813Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="elasticsearch中的段">
-<meta name="twitter:description" content="段消费文件句柄，内存，cpu资源。更重要的是，每次搜索请求都需要依次检查每个段。段越多，查询越慢。ES通过后台合并段解决这个问题。
-　　段文件是无法改动的，因此段数据信息不会删除。如果恰好删除了索引中的很多文档，在索引合并之前，这些文档只是标记删除，并非物理删除。因此，当段合并时，标记删除的文档不会写入到新的段中，通过这种方式实现真正的删除，并缩减了段数据的大小。
-
-索引过程中，refresh">
+<meta name="twitter:title" content="ubuntu文件相关命令">
+<meta name="twitter:description" content="从命令行打开图形文件管理器1nautilus 目录或者文件(是文件,则文件被选中)">
 
 
 
@@ -139,7 +130,7 @@
 
 
 
-  <title> elasticsearch中的段 | 欲将轻骑逐，大雪满弓刀 </title>
+  <title> ubuntu文件相关命令 | 欲将轻骑逐，大雪满弓刀 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -154,7 +145,7 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?340874ba9357cbe81570aa4ac1185941";
+      hm.src = "https://hm.baidu.com/hm.js?5dc162c2ce2d8e49a5e26cf3a9ef3250";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -326,12 +317,12 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://dpanyu.com/blog/2017/03/16/elasticsearch段合并.html">
+    <link itemprop="mainEntityOfPage" href="http://dpanyu.com/blog/2017/09/12/ubuntu文件相关命令.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="coolroad">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -347,7 +338,7 @@
             
             
               
-                elasticsearch中的段
+                ubuntu文件相关命令
               
             
           </h1>
@@ -362,8 +353,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-16T22:07:14+08:00">
-                2017-03-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-12T18:41:12+08:00">
+                2017-09-12
               </time>
             
 
@@ -385,8 +376,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/elasticsearch/" itemprop="url" rel="index">
-                    <span itemprop="name">elasticsearch</span>
+                  <a href="/categories/shell/" itemprop="url" rel="index">
+                    <span itemprop="name">shell</span>
                   </a>
                 </span>
 
@@ -403,8 +394,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/blog/2017/03/16/elasticsearch段合并.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2017/03/16/elasticsearch段合并.html" itemprop="commentCount"></span>
+                <a href="/blog/2017/09/12/ubuntu文件相关命令.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="/blog/2017/09/12/ubuntu文件相关命令.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -430,80 +421,14 @@
       
 
       
-        <p>　　段消费文件句柄，内存，cpu资源。更重要的是，每次搜索请求都需要依次检查每个段。段越多，查询越慢。<br>ES通过后台合并段解决这个问题。</p>
-<p>　　段文件是无法改动的，因此段数据信息不会删除。如果恰好删除了索引中的很多文档，在索引合并之前，这些文档只是标记删除，并非物理删除。因此，当段合并时，标记删除的文档不会写入到新的段中，通过这种方式实现真正的删除，并缩减了段数据的大小。</p>
-<ul>
-<li>索引过程中，refresh会创建新的段，并打开它。</li>
-<li>合并过程会在后台选择一些小的段合并成大的段，这个过程不会中断索引和搜索。</li>
-<li>合并后新的段flush到了硬盘。</li>
-<li>新的提交点写入新的段，排除旧的段。</li>
-<li>新的段打开供搜索。</li>
-<li>旧的段被删除。<h1 id="查看段信息命令："><a href="#查看段信息命令：" class="headerlink" title="查看段信息命令："></a>查看段信息命令：</h1></li>
-</ul>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">curl</span> -XGET <span class="string">'localhost:9200/[index_name1,index_name2/]_segments'</span></div></pre></td></tr></table></figure>
-<h1 id="结果说明："><a href="#结果说明：" class="headerlink" title="结果说明："></a>结果说明：</h1><p>结果基于分片的。<br>返回示例：<br><figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    <span class="attr">"ok"</span>: <span class="literal">true</span>,</div><div class="line">    <span class="attr">"_shards"</span>: &#123;</div><div class="line">        <span class="attr">"total"</span>: <span class="number">1</span>,</div><div class="line">        <span class="attr">"successful"</span>: <span class="number">1</span>,</div><div class="line">        <span class="attr">"failed"</span>: <span class="number">0</span></div><div class="line">    &#125;,</div><div class="line">    <span class="attr">"indices"</span>: &#123;</div><div class="line">        <span class="attr">"mastring"</span>: &#123;</div><div class="line">            <span class="attr">"shards"</span>: &#123;</div><div class="line">                <span class="attr">"0"</span>: [&#123;</div><div class="line">                    <span class="attr">"routing"</span>: &#123;</div><div class="line">                        <span class="attr">"state"</span>: <span class="string">"STARTED"</span>,</div><div class="line">                        <span class="attr">"primary"</span>: <span class="literal">true</span>,</div><div class="line">                        <span class="attr">"node"</span>: <span class="string">"Cz4RFYP5RnudkXzSwe-WGw"</span></div><div class="line">                    &#125;,</div><div class="line">                    <span class="attr">"num\_committed\_segments"</span>: <span class="number">1</span>,</div><div class="line">                    <span class="attr">"num\_search\_segments"</span>: <span class="number">8</span>,</div><div class="line">                    <span class="attr">"segments"</span>: &#123;</div><div class="line">                        <span class="attr">"_0"</span>: &#123;</div><div class="line">                            <span class="attr">"generation"</span>: <span class="number">0</span>,</div><div class="line">                            <span class="attr">"num_docs"</span>: <span class="number">62</span>,</div><div class="line">                            <span class="attr">"deleted_docs"</span>: <span class="number">0</span>,</div><div class="line">                            <span class="attr">"size"</span>: <span class="string">"5.7kb"</span>,</div><div class="line">                            <span class="attr">"size\_in\_bytes"</span>: <span class="number">5842</span>,</div><div class="line">                            <span class="attr">"committed"</span>: <span class="literal">true</span>,</div><div class="line">                            <span class="attr">"search"</span>: <span class="literal">true</span>,</div><div class="line">                            <span class="attr">"version"</span>: <span class="string">"4.3"</span>,</div><div class="line">                            <span class="attr">"compound"</span>: <span class="literal">false</span></div><div class="line">                        &#125;</div><div class="line">                    &#125;</div><div class="line">                &#125;]</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<table>
-<thead>
-<tr>
-<th>字段名</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>num_commited_segments</td>
-<td>已提交段的数量,已提交段表示该段上面运行了一个提交的命令，即段数据已经持久化到硬盘，而且是只读的了。</td>
-</tr>
-<tr>
-<td>num_search_segments</td>
-<td>搜索段的数量,即可用于搜索的段</td>
-</tr>
-<tr>
-<td>number</td>
-<td>该属性为段指定了一个编号，作为多个段分组时得到的JSON对象的名称。(比如，_0,_1,等等)</td>
-</tr>
-<tr>
-<td>generation</td>
-<td>该属性指定的段在索引中属于第几代，用一个整数来表示段的“老年化”程度。</td>
-</tr>
-<tr>
-<td>num_docs</td>
-<td>该段中索引的文档数</td>
-</tr>
-<tr>
-<td>deleted_docs</td>
-<td>该段中被标记为删除的文档数。这些标记为删除的文档将在段合并的时候被真正地删除。</td>
-</tr>
-<tr>
-<td>size</td>
-<td>段在硬盘上占用的空间大小</td>
-</tr>
-<tr>
-<td>size_in_bytes</td>
-<td>段的大小用byte来表示时的数值</td>
-</tr>
-<tr>
-<td>committed</td>
-<td>如果段已经提交，则该属性值为true；否则该属性值为false</td>
-</tr>
-<tr>
-<td>search</td>
-<td>该属性表示可搜索段的个数</td>
-</tr>
-<tr>
-<td>version</td>
-<td>创建索引时使用的Lucene的版本</td>
-</tr>
-<tr>
-<td>compound</td>
-<td>该属性指定了段的格式是否是组合的(所有的段信息都存储在一个文件)</td>
-</tr>
-</tbody>
-</table>
-<h1 id="合并段（optimize-API"><a href="#合并段（optimize-API" class="headerlink" title="合并段（optimize API)"></a>合并段（optimize API)</h1><p>命令：<br><figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">POST /logstash<span class="number">-2014</span><span class="number">-10</span>/_optimize?max_num_segments=<span class="number">1</span></div></pre></td></tr></table></figure></p>
-<blockquote>
-<p>不要在动态的索引（正在活跃更新）上使用optimize API。后台的合并处理已经做的很好了，优化命令会阻碍它的工作。不要干涉！ </p>
-</blockquote>
+        <h1 id="从命令行打开图形文件管理器"><a href="#从命令行打开图形文件管理器" class="headerlink" title="从命令行打开图形文件管理器"></a>从命令行打开图形文件管理器</h1><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">nautilus</span> 目录或者文件(是文件,则文件被选中)</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h1 id="快速定位文件目录"><a href="#快速定位文件目录" class="headerlink" title="快速定位文件目录"></a>快速定位文件目录</h1><figure class="highlight gauss"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">locate</span> 文件名(可以带路径)</div></pre></td></tr></table></figure>
+<p>是find -name的另一种写法,不过快得多,因为他使用的是每天更新数据库.<br>支持模糊搜索,类似sql的like %文件名%<br>-i 忽略大小写<br>updatedb 更新locate数据库</p>
+<h1 id="find"><a href="#find" class="headerlink" title="find"></a>find</h1><figure class="highlight arduino"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">find</span> path -regex <span class="string">"带路径的文件正则"</span></div></pre></td></tr></table></figure>
+<p>find命令可选项非常多.<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">-<span class="ruby">iregex 忽略大小写</span></div><div class="line">-<span class="ruby">size [+<span class="params">|-]数字(c字节|</span>k<span class="params">|M|</span>G)</span></div><div class="line">-<span class="ruby">mtime [+<span class="params">|-]数字 更新时间,单位天</span></span></div><div class="line">-<span class="ruby"><span class="params">mmin [+|</span>-]数字 更新时间,单位分</span></div><div class="line">-<span class="ruby">name 模糊匹配文件名称</span></div><div class="line">-<span class="ruby">type (d<span class="params">|f) d目录f文件</span></span></div><div class="line">-<span class="ruby"><span class="params">exec 对查找结果执行后续命令</span></span></div><div class="line">-<span class="ruby"><span class="params">ok 对查找结果执行后续命令,后续命令需要确认</span></span></div><div class="line">-<span class="ruby"><span class="params">print 对查找结果输出一遍,如果和exec搭配使用很有用,因为有exec选项,会直接执行后续命令,默认不会打印find结果.</span></span></div></pre></td></tr></table></figure></p>
+<p>举个栗子:<br><figure class="highlight sqf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">find</span> -<span class="built_in">name</span> <span class="string">"my*"</span></div><div class="line"><span class="built_in">find</span> ./ -<span class="built_in">type</span> d -print -<span class="built_in">exec</span> ls &#123;&#125; \;</div><div class="line"><span class="built_in">find</span> ./ -<span class="built_in">type</span> d -print -<span class="built_in">exec</span> ls &#123;&#125; +</div></pre></td></tr></table></figure></p>
+<p>第一个是每一个目录单独执行ls命令<br>第二个是找到的目录添加到ls后一次执行,参数过长会分多次执行.</p>
 
       
     </div>
@@ -518,6 +443,27 @@
     <div>
       
         
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>这个可以有^_^</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/weixin.png" alt="coolroad WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/zhifubao.png" alt="coolroad Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
 
       
     </div>
@@ -533,9 +479,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/elasticsearch/" rel="tag"># elasticsearch</a>
+            <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
           
-            <a href="/tags/segment/" rel="tag"># segment</a>
+            <a href="/tags/shell/" rel="tag"># shell</a>
           
         </div>
       
@@ -548,8 +494,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2017/03/16/hello-world.html" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/blog/2017/09/12/虚拟机网络配置.html" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
               </a>
             
           </div>
@@ -557,10 +503,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/blog/2017/03/16/hexo.html" rel="prev" title="搭建hexo博客">
-                搭建hexo博客 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -575,10 +517,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="/blog/2017/03/16/elasticsearch段合并.html"
-     data-title="elasticsearch中的段"
+        <div class="ds-share flat" data-thread-key="/blog/2017/09/12/ubuntu文件相关命令.html"
+     data-title="ubuntu文件相关命令"
      data-content=""
-     data-url="http://dpanyu.com//blog/2017/03/16/elasticsearch段合并.html">
+     data-url="http://dpanyu.com//blog/2017/09/12/ubuntu文件相关命令.html">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -605,8 +547,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="/blog/2017/03/16/elasticsearch段合并.html"
-           data-title="elasticsearch中的段" data-url="http://dpanyu.com//blog/2017/03/16/elasticsearch段合并.html">
+      <div class="ds-thread" data-thread-key="/blog/2017/09/12/ubuntu文件相关命令.html"
+           data-title="ubuntu文件相关命令" data-url="http://dpanyu.com//blog/2017/09/12/ubuntu文件相关命令.html">
       </div>
     
   </div>
@@ -643,7 +585,7 @@
       <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
+               src="/images/avatar.jpg"
                alt="coolroad" />
           <p class="site-author-name" itemprop="name">coolroad</p>
            
@@ -719,7 +661,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#查看段信息命令："><span class="nav-number">1.</span> <span class="nav-text">查看段信息命令：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#结果说明："><span class="nav-number">2.</span> <span class="nav-text">结果说明：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#合并段（optimize-API"><span class="nav-number">3.</span> <span class="nav-text">合并段（optimize API)</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#从命令行打开图形文件管理器"><span class="nav-number">1.</span> <span class="nav-text">从命令行打开图形文件管理器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#快速定位文件目录"><span class="nav-number">2.</span> <span class="nav-text">快速定位文件目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#find"><span class="nav-number">3.</span> <span class="nav-text">find</span></a></li></ol></div>
             
 
           </div>
