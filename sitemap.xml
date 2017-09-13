@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://dpanyu.com//blog/2017/09/12/%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE.html</loc>
+    
+    <lastmod>2017-09-13T01:40:10.847Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dpanyu.com/about/index.html</loc>
+    
+    <lastmod>2017-09-12T10:41:12.818Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dpanyu.com//blog/2017/09/12/ubuntu%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4.html</loc>
+    
+    <lastmod>2017-09-12T10:41:12.813Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://dpanyu.com//blog/2017/03/16/markdown.html</loc>
     
     <lastmod>2017-03-17T05:26:04.689Z</lastmod>
@@ -26,13 +47,6 @@
     <loc>http://dpanyu.com//blog/2017/03/17/hexo.html</loc>
     
     <lastmod>2017-03-17T05:24:49.772Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://dpanyu.com/about/index.html</loc>
-    
-    <lastmod>2017-03-16T02:26:47.844Z</lastmod>
     
   </url>
   
